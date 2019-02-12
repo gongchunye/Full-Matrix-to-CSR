@@ -28,7 +28,7 @@ void main()
 	for (j=0; j<n; j++)
 		for (i=0; i<m; i++)
 		{
-			if(rand()*1.0/RAND_MAX>0.8){mat[j][i]=(rand()*0.0001+1);}// 20% are not zero
+			if(rand()*1.0/RAND_MAX>0.8){mat[j][i]=(rand()*0.0001+1);}// 20% are not zero, not too big
 			if(i==j) mat[j][i]=i;
 		}
 	mat[0][0]=7;
